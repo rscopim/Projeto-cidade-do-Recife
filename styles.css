@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
-body{
+body {
 	background-color:#171731;
 	color:#fff;
     font-family: Quicksand;
 }
 
 
-header{
+header {
 	display: flex;
   	justify-content: space-between;
 	padding: 5px;
@@ -15,29 +15,29 @@ header{
 	max-height: 100px;
 }
 
-.logo img{
-	max-width: 100px;
-    max-height: 100px;
+body img {
+	max-width: 400px;
+    max-height: 400px;
 }
 
-nav{	
+nav {	
 	float: right;	
 	height: 53px;
 	padding: 13px;
 	font-size: 1.2em;
 }
 
-nav ul{
+nav ul {
 	list-style: none;
 }
 
-nav li{	
+nav li {	
   	display: inline-block;
     margin: 0 0 0 13px;
 }
 
 
-main{
+main {
 	position: relative;
 	background-color:#3347a1;
 	color:#fff;
@@ -50,29 +50,30 @@ img{
 }
 
 section img {
-	max-width: 600px;
-    max-height: 600px;
+	max-width: 400px;
+    max-height: 400px;
+	justify-content: flex-end;	
 }
 
-h1{
+h1 {
 	margin: 13px;
 	text-align: center;
 }
 
-h2{
+h2 {
 	margin: 13px;
 	text-align: center;
 }
 
-p{
+p {
 	padding: 10px;
 	text-align: justify;
 }
 
-footer{
-	display: inline-block;
+footer {
+	display: flex;
   	justify-content: space-between;
 	padding: 5px;
-	align-items: center;
+	align-items: baseline;
 	max-height: 100px;
 }
